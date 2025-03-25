@@ -1,3 +1,18 @@
+DOCKER image of VA3HDL hamdashboard
+
+### Quicker Setup
+Copy image to directory
+```
+git clone https://github.com/bertotuxedo/hamdashboard
+cd hamdashboard
+```
+You can make edits to the docker-compose.yml file if you wish.
+```
+docker compose up -d
+```
+Enjoy!
+____________________________________________________________________________________
+
 Original VA3HDL [YouTube - Presentation video](https://www.youtube.com/watch?v=sIdqMQTGNSc)
 
 VA3HDL en español [YouTube - Video en español](https://www.youtube.com/watch?v=IBMxELofKVA)
@@ -52,6 +67,7 @@ VA3HDL en español [YouTube - Video en español](https://www.youtube.com/watch?v
 
 [W4QAL](https://w4qal.net/dashboard/index.html) -- SE US - West Florida
 
+## Local Installation instructions (not docker)
 ### Quick Setup Instructions:
 1. Just download the files from the Github repository (hamdash.html, config.js, and wheelzoom.js) and keep them together on the same folder.
 2. Open hamdash.html with any browser of your preference.

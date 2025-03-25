@@ -2,6 +2,9 @@ version: "3.8"
 
 services:
   hamdash:
+    volumes:
+      - ./config.js:/usr/share/nginx/html/config/config.js
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
     build: .
     ports:
       - "8118:80"

@@ -3,7 +3,10 @@ version: "3.8"
 services:
   hamdash:
     volumes:
-      - ./config.js:/usr/share/nginx/html/config/config.js
+      - ./hamdash.html:/usr/share/nginx/html/hamdash.html
+      - ./config.js:/usr/share/nginx/html/config.js
+      - ./wheelzoom.js:/usr/share/nginx/html/wheelzoom.js
+      - ./images:/usr/share/nginx/html/images
     build: .
     ports:
       - "8118:80"

@@ -10,6 +10,11 @@ You can make edits to the docker-compose.yml file if you wish.
 ```
 docker compose up -d
 ```
+Identify the IP and Port from the docker-compose.yaml file.
+```
+172.X.X.X:8XXX/hamdash.html
+```
+
 Enjoy!
 ____________________________________________________________________________________
 
